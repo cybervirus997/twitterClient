@@ -64,7 +64,7 @@ export const Profile = () => {
     
     let userId = obj._id;
     const getter = () => {
-         axios.get("https://twitterrrr-serverrrr.herokuapp.com/user/profiledata"+userId)
+         axios.get(`https://twitterrrr-serverrrr.herokuapp.com/user/profiledata/${userId}`)
             .then((res) =>
             {
                 console.log(res.data)
