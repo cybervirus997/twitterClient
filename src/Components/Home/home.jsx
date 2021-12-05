@@ -33,7 +33,7 @@ function Home() {
     
     const handleTweetData = () => {
         setLoading(true);
-        axios.get("http://localhost:3007/tweet")
+        axios.get("https://twitterrrr-serverrrr.herokuapp.com/tweet")
             .then((data) => {
                 let xi = data.data.tweet;
                 xi = xi.reverse();
@@ -49,7 +49,7 @@ function Home() {
     const [src, setSrc] = useState("")
 
     const handlePostTweeet = () => {
-        axios.post("http://localhost:3007/tweet", {
+        axios.post("https://twitterrrr-serverrrr.herokuapp.com/tweet", {
             userId: obj._id,                                    // i used dummy userId(ronaldo),use that ID who is logged-in
             title: inp
         })
@@ -152,13 +152,13 @@ function Home() {
     // handle liking post start here
     let userId = obj._id;                // use Redux
     const handleLIkePost = (tweeetId) => {
-        axios.post("http://localhost:3007/tweet/"+tweeetId+"/"+userId+"/like")
+        axios.post("https://twitterrrr-serverrrr.herokuapp.com/tweet/"+tweeetId+"/"+userId+"/like")
             .then((data) => { console.log(data); setDummy(!dummy); })
         .catch(err => { console.log(err)})
     }
 
     const handleDisLIkePost = (tweeetId) => {
-        axios.post("http://localhost:3007/tweet/"+tweeetId+"/"+userId+"/dislike")
+        axios.post("https://twitterrrr-serverrrr.herokuapp.com/tweet/"+tweeetId+"/"+userId+"/dislike")
             .then((data) => { console.log(data); setDummy(!dummy); })
         .catch(err => { console.log(err)})
     }
@@ -166,7 +166,7 @@ function Home() {
 
     //handle retweet post start here
     const handleRetweet = (tweeetId) => {
-        axios.post("http://localhost:3007/tweet/"+tweeetId+"/"+userId+"/retweetadd")
+        axios.post("https://twitterrrr-serverrrr.herokuapp.com/tweet/"+tweeetId+"/"+userId+"/retweetadd")
             .then((data) => { console.log(data); setDummy(!dummy);  })
         .catch(err => { console.log(err)})
     }

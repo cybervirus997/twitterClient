@@ -37,7 +37,7 @@ export const TransitionsModal = ({allComment,rerenderVar,rerenderfnc})=> {
     console.log("obj",obj);
 
     const handlePostComment = () => {
-        axios.post("http://localhost:3007/comment", {
+        axios.post("https://twitterrrr-serverrrr.herokuapp.com/comment", {
           tweetId: allComment._id,
           commentTitle: comment,
           commentPic: "",

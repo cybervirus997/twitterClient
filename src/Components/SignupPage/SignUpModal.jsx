@@ -47,7 +47,7 @@ function SignUpModal({ setOpenModal }) {
     const config = {
       method: "post",
       data: detail,
-      url: `http://localhost:3007/signup`
+      url: `https://twitterrrr-serverrrr.herokuapp.com/signup`
     };
 
     axios(config)

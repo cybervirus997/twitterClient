@@ -48,7 +48,7 @@ export default function RightNav(){
     ]
 
     function allUser(){
-        axios.get("http://localhost:3007/user").then((data)=>{
+        axios.get("https://twitterrrr-serverrrr.herokuapp.com/user").then((data)=>{
             // console.log(data.data);
             const user = data.data.filter((e, i)=>i<3);
             setFollow(user);

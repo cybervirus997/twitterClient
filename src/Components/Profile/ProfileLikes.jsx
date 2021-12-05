@@ -23,7 +23,7 @@ export const ProfileLikes = () => {
     const obj = useSelector((state)=>state.loggedInUser)   // calling recuder
 
     const getLikes = () => {
-        axios.get("http://localhost:3007/tweet")
+        axios.get("https://twitterrrr-serverrrr.herokuapp.com/tweet")
             .then(data => {
 
                 let likeTweet = data.data.tweet.map((el) => {

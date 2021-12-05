@@ -25,7 +25,7 @@ export const ProfileReplies = () => {
     
 
     const getLikes = () => {
-        axios.get("http://localhost:3007/tweet")
+        axios.get("https://twitterrrr-serverrrr.herokuapp.com/tweet")
             .then(data => {
 
                 let likeTweet = data.data.tweet.map((el) => {

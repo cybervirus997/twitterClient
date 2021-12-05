@@ -30,7 +30,7 @@ function SignInModal({ setOpenModalSecond }) {
     const config = {
       method: "post",
       data: loginData,
-      url: `http://localhost:3007/login`
+      url: `https://twitterrrr-serverrrr.herokuapp.com/login`
     };
     axios(config)
         .then((data) => {
