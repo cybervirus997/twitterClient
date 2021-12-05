@@ -1,0 +1,110 @@
+.rightNav {
+    margin-left: 30px;
+
+}
+
+.rightNav>div>img {
+    margin-left: 12px;
+}
+
+.rightNav>div>input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.whats {
+    background-color: #eff3f4;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.whats>p {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 16px;
+    margin: 0px;
+}
+
+.trends {
+    padding: 12px 16px;
+}
+
+.trends>span:nth-child(1),
+.trends>span:nth-child(5) {
+    font-size: 15px;
+    color: #88949d;
+}
+
+.trends>span:nth-child(3) {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.trends:hover,
+.showMore:hover,
+.perFollow:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.showMore {
+    padding: 12px 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.showMore>a {
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
+.perFollow {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perFollow>button {
+    background-color: black;
+    color: white;
+    border-radius: 9999px;
+    padding: 0px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+}
+
+.tweetsData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tweetsData>img {
+    border-radius: 9999px;
+}
+
+.footer {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer>span {
+    /* text-decoration:underline; */
+    color: #536471 !important;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+}
+
+.footer>span:hover {
+    text-decoration: underline;
+}

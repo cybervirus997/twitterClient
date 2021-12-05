@@ -1,0 +1,78 @@
+/* input[type='file'] {
+    color: transparent;
+} */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.imgOne:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.home {
+    border-bottom: none;
+    position: fixed;
+    top: 0.2px;
+    background-color: white;
+    border-color: black;
+    width: 630px;
+}
+
+.firstBorder {
+    border: 1px solid rgb(235, 234, 234);
+    padding: 7px 20px 0px 20px;
+    color: rgba(0, 0, 0, 1.00);
+    font-weight: 600;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.first {
+    border: 1px solid rgb(235, 234, 234);
+    padding: 7px 20px 0px 20px;
+}
+
+.btn1 {
+    background-color: rgb(142, 205, 248);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 100px;
+    float: right;
+    margin-top: 5px;
+}
+
+.divProfile {
+    margin: 20px 0px 0px 50px;
+}
+
+.desc {
+    color: rgb(6, 7, 8);
+    font-size: 17px;
+    margin-left: 65px;
+    font-weight: 500;
+}
+
+.description {
+    padding: 0%;
+    color: rgb(77, 76, 76);
+    margin-left: 65px;
+    font-size: 16.2px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainPic {
+    margin-left: 65px;
+    width: 500px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 18px;
+    margin-bottom: 1px;
+}

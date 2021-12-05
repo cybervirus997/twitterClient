@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="cc90a070-4664-4ce3-84f3-4c99bd9ee134"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="4aeeacd7-dafc-48b9-a059-9eadac87eb4b"  >
+</g>
+<g transform="matrix(51.32 0 0 51.32 540 540)"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -12)" d="M 19.75 22 L 4.25 22 C 3.01 22 2 20.99 2 19.75 L 2 4.25 C 2 3.01 3.01 2 4.25 2 L 19.75 2 C 20.99 2 22 3.01 22 4.25 L 22 19.75 C 22 20.99 20.99 22 19.75 22 z M 4.25 3.5 C 3.836 3.5 3.5 3.837 3.5 4.25 L 3.5 19.75 C 3.5 20.163 3.836 20.5 4.25 20.5 L 19.75 20.5 C 20.164 20.5 20.5 20.163 20.5 19.75 L 20.5 4.25 C 20.5 3.837 20.164 3.5 19.75 3.5 L 4.25 3.5 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -12)" d="M 17 8.64 L 7 8.64 C 6.586 8.64 6.25 8.303 6.25 7.890000000000001 C 6.25 7.477 6.586 7.140000000000001 7 7.140000000000001 L 17 7.140000000000001 C 17.414 7.140000000000001 17.75 7.4750000000000005 17.75 7.890000000000001 C 17.75 8.305 17.414 8.64 17 8.64 z M 17 12.75 L 7 12.75 C 6.586 12.75 6.25 12.414 6.25 12 C 6.25 11.586 6.586 11.25 7 11.25 L 17 11.25 C 17.414 11.25 17.75 11.586 17.75 12 C 17.75 12.414 17.414 12.75 17 12.75 z M 12 16.86 L 7 16.86 C 6.586 16.86 6.25 16.525 6.25 16.11 C 6.25 15.695 6.586 15.36 7 15.36 L 12 15.36 C 12.414 15.36 12.75 15.697 12.75 16.11 C 12.75 16.523 12.414 16.86 12 16.86 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
