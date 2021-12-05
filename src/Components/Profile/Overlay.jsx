@@ -125,7 +125,7 @@ export const Overlay = ({variable12,fnc,userId,closing}) => {
 
     const handlePublish = () => {
         let usered = userId;
-        axios.patch("https://twitterrrr-serverrrr.herokuapp.com/user/" + usered, wholeData)
+        axios.patch(`https://twitterrrr-serverrrr.herokuapp.com/user${usered}`, wholeData)
             .then(data => {
                 fnc(!variable12);
                 closing();
